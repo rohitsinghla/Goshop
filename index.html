@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>E-Commerce</title>
+</head>
+<body>
+  <header>
+    <div class="Navbar">
+            <div class="Navlogo border">
+                <div class="logo"></div>
+            </div>
+            <div class="Nav-address border">
+                <p class="address-First">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="address-Second">India</p>
+                </div>
+            </div>
+    <div class="nav-Serach">
+        <select class="serach-select">
+            <option>All</option>
+            <option>Option1 </option>
+            <option>Option2 </option>
+            <option>Option3 </option>
+            <option>Option4 </option>
+            <option>Option5 </option>
+            <option>Option6 </option>
+            <option>Option7 </option>
+            <option>Option8 </option>
+            <option>Option9 </option>
+            <option>Option10 </option>
+            <option>Option11 </option>
+            <option>Option12 </option>
+            
+        </select>
+    <input class="serach-input" placeholder="Serach Amazon"">
+    <div class="serach-icon">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </div>    
+</div>
+
+<div class="nav-signin border">
+   <a href="#"> <p><span> Hello, Sign in</span></p>
+    <p class ="nav-second"> Account & Lists </p></a>
+</div>
+
+<div class="nav-return border">
+    <p><span> Returns</span></p>
+    <p class ="nav-second"> Orders </p>
+</div>
+    
+  <div class="nav-cart border">
+    <i class="fa-solid fa-cart-shopping"></i>
+    Cart
+  </div>
+
+  
+ </div>
+        <div class="panel">
+            <div class="panel-all border" id="dropdown-button">
+                <i class="fa-solid fa-bars">    </i>                   
+                All
+                
+            </div>
+            <div class="panel-option">
+                
+                <p>GoShop SQ TV</p>
+                <p>Movie</p>
+                <p>GoShop Pay</p>
+                
+            </div>
+        
+          </div>
+
+
+          <div class="dropdown-menu" id="dropdown-menu">
+            <p><a href="#">Fresh</a></p>
+            <p><a href="#">GoShop SQ TV</a></p>
+            <p><a href="#">Sell</a></p>
+            <p><a href="#">Best Sellers</a></p>
+            <p><a href="#">Mobile</a></p>
+            <p><a href="#">Today'Deals</a></p>
+            <p><a href="#">Electronic</a></p>
+            <p><a href="#">Prime</a></p>
+            <p><a href="#">Home & Kitchen</a></p>
+            <p><a href="#">Customer service</a></p>
+            <p><a href="#">Fashion</a></p>
+            <p><a href="#">New Releases</a></p>
+            <p><a href="#">GoShop Pay</a></p>
+            <p><a href="#">Computer</a></p>
+        </div>
+
+
+        </header>
+       
+        <!-- Carousel -->
+
+       <div class="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item">
+                <img src="Image/herosec.jpg" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+                <img src="Image/herosec1.jpg" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <img src="Image/herosec2.jpg" alt="Slide 3">
+            </div>
+            <div class="carousel-item">
+                <img src="Image/herosec3.jpg" alt="Slide 3">
+            </div>
+            <div class="carousel-item">
+                <img src="Image/herosec4.jpg" alt="Slide 4">
+            </div>
+            <div class="carousel-item">
+                <img src="Image/herosec5.jpg" alt="Slide 5">
+            </div>
+            <div class="carousel-item">
+                <img src="Image/herosec6.jpg" alt="Slide 6">
+            </div>
+            <div class="carousel-item">
+                <img src="Image/herosec7.jpg" alt="Slide 6">
+            </div>
+
+        </div>
+        <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
+        <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
+    </div>
+    <!-- <br> -->
+
+<!-- Content-Section -->
+
+<div class="img-Section">
+    
+    <div class="image1 threeimage" style="background-image: url(Image/img.avif);background-size: cover;">
+        <p> EDITOR'S PICK </p>
+           
+    </div>
+    <div class="image1 threeimage"style="background-image: url(Image/shoes.webp);background-size: cover;">
+        <p>SHOES </p>
+    </div>
+    <div class="image1 threeimage"style="background-image: url(Image/img3.avif);background-size: cover;">
+        <p> ACCESSORIES </p>
+        
+    </div>
+</div>
+
+<!-- new arrival -->
+
+<div class="New-arival">
+<hr>
+<span>NEW ARRIVALS</span>
+
+<hr>
+
+<div class="Viewall">
+     <a href="#"><p>View All</p></a>
+
+</div>
+</div>
+
+<!-- Card-section --> 
+
+<div class="product-grid">
+        <div class="product-card">
+            <div class="image-container">
+                <img src="Image/cards1.webp" alt="Product 1" class="hover-image" data-hover="Image/cards1.2.webp" >
+            </div>
+            <h3>COLLETTE</h3>
+            <p>(Product 35) Sample - Clothing And Accessory Boutiques For Sale</p>
+            <p class="price"> <span>$48.99</span></p>
+        </div>
+        <div class="product-card">
+            <div class="image-container">
+                <img src="Image/cards2.webp" alt="Product 2"class="hover-image" data-hover="Image/cards2.2.webp">
+                <div class="overlay">Sale</div>
+            </div>
+            <h3>JIMMY CHOO</h3>
+            <p>(Product 9) Sample - Clothing And Accessory Boutiques For Sale</p>
+            <p class="price"><span>$418.99</span></p>
+        </div>
+        <div class="product-card">
+            <div class="image-container">
+                <img src="Image/card10.webp" alt="Product 3"class="hover-image" data-hover="Image/cards3.3.webp">
+                <div class="overlay">Limited Edition</div>
+            </div>
+            <h3>DAVENTRY MEERS</h3>
+            <p>(Product 18) Sample - Clothing And Accessory Boutiques For Sale</p>
+            <p class="price"> <span>$99.00</span></p>
+        </div>
+        <div class="product-card">
+            <div class="image-container">
+                <img src="Image/cards3.webp" alt="Product 4"class="hover-image" data-hover="Image/cards10.10.webp">
+                <div class="overlay">Sold Out</div>
+            </div>
+            <h3>BURBERRY</h3>
+            <p>(Product 39) Sample - Clothing And Accessory Boutiques For Sale</p>
+            <p class="price"><span>$418.99</span></p>
+        </div>
+        <div class="product-card">
+            <div class="image-container">
+                <img src="Image/cards4.webp" alt="Product 5"class="hover-image" data-hover="Image/cards7.7.webp">
+                <div class="overlay" style="background-color: rgb(250, 192, 84);">Custom Labels</div>
+            </div>
+            <h3>BURBERRY</h3>
+            <p>(Product 28) Sample - Clothing And Accessory Boutiques For Sale</p>
+            <p class="price"><span>$418.99</span></p>
+        </div>
+        <div class="product-card">
+            <div class="image-container">
+                <img src="Image/cards5.webp" alt="Product 6"class="hover-image" data-hover="Image/cards8.webp">
+                <div class="overlay">Sold Out</div>
+            </div>
+            <h3>BURBERRY</h3>
+            <p>(Product 19) Sample - Clothing And Accessory Boutiques For Sale</p>
+            <p class="price"><span>$418.99</span></p>
+        </div>
+        <div class="product-card">
+            <div class="image-container">
+                <img src="Image/cards7.webp" alt="Product 7"class="hover-image" data-hover="Image/cards9.webp">
+                <div class="overlay" style="background-color: rgb(97, 97, 97);" >Bundle</div>
+            </div>
+            <h3>BURBERRY</h3>
+            <p>(Product 22) Sample - Clothing And Accessory Boutiques For Sale</p>
+            <p class="price"><span>$418.99</span></p>
+        </div>
+        <div class="product-card">
+            <div class="image-container">
+                <img src="Image/card9.webp" alt="Product 8"class="hover-image" data-hover="Image/cards2.2.webp">
+                <!-- <div class="overlay">Sold Out</div> -->
+            </div>
+            <h3>BURBERRY</h3>
+            <p>(Product 20) Sample - Clothing And Accessory Boutiques For Sale</p>
+            <p class="price"><span>$418.99</span></p>
+        </div>
+    </div>
+
+<!-- middle-box arera -->
+<div class="center-box">
+    
+    <div class="inside-center">
+        <i class="fa-solid fa-truck-fast fa-xl " style="color:  #481E14;"></i>
+    <a href="#"> Free Shipping </a>
+        <p>Above $5 only</p>    
+    </div>
+
+    <div class="inside-center">
+        <i class="fa-solid fa-address-book fa-xl" style="color:  #481E14;"></i>   
+        <a href="#"> Certified Organic </a>
+    <p>100% Guarantee</p>
+     </div>
+
+    <div class="inside-center">
+        <i class="fa-solid fa-money-bill fa-xl" style="color: #481E14;"></i>
+        <a href="#"> Huge Saving </a>
+        <p>At Lowest Price</p>
+    </div>
+
+    <div class="inside-center">
+        <i class="fa-solid fa-recycle fa-xl" style="color:  #481E14;"></i> 
+        <a href="#"> Easy Returns </a>
+               <p>No Questions Asked</p>
+    </div>
+</div>
+
+<!-- blog-section -->
+
+<div class="container">
+    <div class="blog-section">
+        <h2>FROM OUR BLOG</h2>
+        <div class="blog-item">
+            <img src="Image/blogimg.jpg" alt="Blog image 1">
+            
+            <div class="blog-info">
+                <h2>Temporibus autem quibusdam</h2>
+                <p>15/Jul/24</p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+        <div class="blog-item">
+            <img src="Image/blogimg1.jpg" alt="Blog image 2">
+
+            <div class="blog-info">
+                <h2>Temporibus autem quibusdam</h2>
+                <p>15/Apr/24</p>
+                <a href="#">Read more</a>
+            </div>
+        </div>
+    </div>
+    <div class="testimonial-section">
+        <h2>WHAT THEY SAY</h2>
+        <div class="testimonial">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, minus vel illum cupiditate reiciendis atque quaerat impedit, natus quas cum laboriosam ut ab soluta perferendis..."</p>
+            <p class="email">Admin@Gmail.com</p>
+            <p class="name">Rohit <span>Web Developer</span></p>
+            <div class="testimonial-images">
+                <img src="Image/blogimg2.jpg" alt="User 1">
+                <img src="Image/blogimg3.jpg" alt="User 2" class="active">
+                <img src="Image/blogimg4.jpg" alt="User 3">
+            </div>
+        </div>
+        <div class="testimonial-nav">
+            <button>&lt;</button>
+            <button>&gt;</button>
+        </div>
+    </div>
+</div>
+
+<!-- sign-box -->
+<div class="out-signbox">
+<div class="signbox">
+    <p>See personalized recommendations</p>
+    <button>Sign in</button>
+    <p>New Customer  <a href="#">Start here..</a></p>
+    
+</div>
+</div>
+
+<!-- Back to Top -->
+
+<div class="back-to-top">
+    <a href="#"> Back to Top </a>
+</div>
+
+<!-- Footer -->
+<div class="main-footer">
+<div class="footer">
+ <div class="first-section">
+    <p class="footer-text">
+        Get To Know Us
+    </p>
+    <li> <a href= "#"> About Us </a> </li>
+    <li> <a href= "#"> Careers </a> </li>
+    <li> <a href= "#"> Press Releases </a> </li>
+    <li> <a href= "#"> GoShop Science </a> </li>
+ </div>
+
+ <div class="second-section">
+<p class="footer-text">
+connect With Us
+</p>
+<li> <a href= "#"> Facebook </a> </li>
+<li> <a href= "#"> Twitter </a> </li>
+<li> <a href= "#"> Instagram </a> </li>
+ </div>
+
+<div class="third-section">
+<p class="footer-text">
+Make Money With Us
+</p>
+<li> <a href= "#"> Sell on GoShop </a> </li>
+    <li> <a href= "#"> Sell under GoShop Accelerator </a> </li>
+    <li> <a href= "#"> Protect and Build Your Brand </a> </li>
+    <li> <a href= "#"> GoShop Global Selling </a> </li>
+    <li> <a href= "#"> Become an Affiliate</a> </li>
+    <li> <a href= "#"> Fulfilment by GoShop</a> </li>
+    <li> <a href= "#"> Advertise Your Products</a> </li>
+    <li> <a href= "#"> GoShop Pay on Merchants</a> </li>
+</div>
+
+ <div class="fourth-section">
+<p class="footer-text">
+Let Us Help You
+</p>
+<li> <a href= "#"> COVID-19 and GoShop </a> </li>
+<li> <a href= "#"> Your Account</a> </li>
+<li> <a href= "#"> Returns Centre </a> </li>
+<li> <a href= "#"> 100% Purchase Protection</a> </li>
+<li> <a href= "#"> GoShop App Download</a> </li>
+<li> <a href= "#"> Help</a> </li>
+
+ </div>
+
+
+
+</div>
+<div class="footer-line"></div>
+
+<div class="footer-content">
+    <div class="footer-section">
+        <a href="#">
+        <h3>AbeBooks</h3>
+        <p>Books, art & collectibles</p></a>
+    </div>
+    <div class="footer-section">
+        <a href="#">
+        <h3>GoShop Web Services</h3>
+        <p>Scalable Cloud Computing Services</p></a>
+    </div>
+    <div class="footer-section">
+       <a href="#">
+        <h3>Audible</h3>
+        <p>Download Audio Books</p></a>
+    </div>
+    <div class="footer-section">
+       <a href="#">
+        <h3>IMDb</h3>
+        <p>Movies, TV & Celebrities</p></a>
+    </div>
+    <div class="footer-section">
+        <a href="#">
+        <h3>Shopbop</h3>
+        <p>Designer Fashion Brands</p></a>
+    </div>
+    <div class="footer-section">
+        <a href="#">
+        <h3>GoShop Business</h3>
+        <p>Everything For Your Business</p></a>
+    </div>
+    <div class="footer-section">
+        <a href="#">
+        <h3>Movie Now</h3>
+        <p>2-Hour Delivery on Everyday Items</p>
+    </a>
+    </div>
+    <div class="footer-section">
+        <a href="#">
+        <h3>GoShop SQ Music</h3>
+        <p>100 million songs, ad-free<br>Over 15 million podcast episodes</p></a>
+    </div>
+</div>
+<div class="footer-line"></div>
+
+<div class="footer-bottom">
+    <a href="#">Conditions of Use & Sale</a>
+    <a href="#">Privacy Notice</a>
+    <a href="#">Interest-Based Ads</a>
+    <p>&copy; 2023-2024, GoShop.com, Inc. or its affiliates</p>
+</div>
+</div>
+
+
+
+
+<!-- 
+<div class="content-section">
+    <div class="box1 Box">
+        <h2>Health & Peronal Care</h2>
+        <div class="box-img" style="background-image: url();"> </div>
+        <p>See more</p>
+    </div>
+    
+
+    <div class="box2 Box">Box2</div>
+    <div class="box3 Box">Box3</div>
+    <div class="box4 Box">Box4</div>
+</div>
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+let currentIndex = 0;
+
+function showSlide(index) {
+    const slides = document.querySelectorAll('.carousel-item');
+    const totalSlides = slides.length;
+
+    if (index >= totalSlides) {
+        currentIndex = 0;
+    } else if (index < 0) {
+        currentIndex = totalSlides - 1;
+    } else {
+        currentIndex = index;
+    }
+
+    document.querySelector('.carousel-inner').style.transform = `translateX(-${currentIndex * 100}%)`;
+}
+
+function nextSlide() {
+    showSlide(currentIndex + 1);
+}
+
+function prevSlide() {
+    showSlide(currentIndex - 1);
+}
+
+setInterval(() => {
+    showSlide(currentIndex + 1);
+}, 3000); // Change slide every 3 seconds
+
+
+
+// // Cards
+
+document.addEventListener('DOMContentLoaded', function() {
+    const images = document.querySelectorAll('.hover-image');
+    images.forEach(img => {
+        const originalSrc = img.src;
+        const hoverSrc = img.getAttribute('data-hover');
+        
+        img.addEventListener('mouseover', function() {
+            img.src = hoverSrc;
+        });
+
+        img.addEventListener('mouseout', function() {
+            img.src = originalSrc;
+        });
+    });
+});
+
+
+// drop-down
+document.addEventListener('DOMContentLoaded', () => {
+    const dropdownButton = document.getElementById('dropdown-button');
+    const dropdownMenu = document.getElementById('dropdown-menu');
+
+    dropdownButton.addEventListener('click', () => {
+        if (dropdownMenu.classList.contains('show-dropdown')) {
+            dropdownMenu.classList.remove('show-dropdown');
+        } else {
+            dropdownMenu.classList.add('show-dropdown');
+        }
+    });
+
+    document.addEventListener('click', (event) => {
+        if (!dropdownButton.contains(event.target) && !dropdownMenu.contains(event.target)) {
+            dropdownMenu.classList.remove('show-dropdown');
+        }
+    });
+});
+
+    </script>
+
+</body>
+</html>
